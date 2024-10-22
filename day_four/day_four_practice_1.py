@@ -29,3 +29,7 @@ if heads_or_tails == 0:
 else:
     print("Tails")
 
+
+
+
+# who pay
