@@ -24,3 +24,10 @@ def life_in_weeks(current_age):
     print(f"You have {years_left} weeks left.")
 
 life_in_weeks(56)
+
+
+def greet_with(name, location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+greet_with(name="Jameson", location="Dallas")
+# declaring 'greet_with' function with two parameter and two keyword arguments
