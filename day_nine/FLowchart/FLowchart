@@ -1,0 +1,8 @@
+1:) ask the user to enter his name as an input
+2:) ask the user to ender his bid price number as an input 
+3:) add the name and bid into a dictionary as the key and value
+4:) ask the user if other players wants to bid
+    4a:) if the answer is 'yes'
+        4ab:) clear the screen and repeat section 1: and 2:
+    4b:) if answer is 'no'
+        4bc:) find the highest bidder and declare the winner
