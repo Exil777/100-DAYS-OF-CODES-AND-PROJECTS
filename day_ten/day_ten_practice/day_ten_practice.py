@@ -1,5 +1,6 @@
 # Functiion with output
 def format_name(f_name, l_name):
+    """Take a first and last name and format it to return the title case version of the name."""
     if f_name == "" or l_name == "":
         return "You did not provide a valid inputs"
     first_name = f_name.title()
@@ -23,6 +24,7 @@ print(formatd_string)
 
 def is_leap_year(year):
     # Write your code here. 
+    """Take year and check to see if it's a leap year or not."""
     if year % 4 == 0:
         if year % 100 == 0:
             if year % 400 == 0:
