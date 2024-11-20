@@ -18,18 +18,25 @@ operation = {
     "/": divide,
 }
 # TODO: Use the dictionary operations to perform the calculations. Multiply 4 * 8 using the dictionary.
-operation_calc = operation["*"](4, 8)
-print(f"answer = {operation_calc}")
-
+# operation_calc = operation["*"](4, 8)
+# print(f"answer = {operation_calc}")
 
 
 # Program asks the user to type the first number.
+num1 = float(input("Enter the first number?: "))
 # Program asks the user to type a mathematical operator (a choice of "+", "-", "*" or "/")
+for symbols in operation:
+    print(symbols)
+operation_symbols = input("Pick an operation: ")
 # Program asks the user to type the second number.
+num2 = float(input("What's the next number?: "))
 # Program works out the result based on the chosen mathematical operator.
+answer = operation[operation_symbols](num1, num2)
+print(f"{num1} {operation_symbols} {num2} = {answer}")
 # Program asks if the user wants to continue working with the previous result.
+choice = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation: ")
 # If yes, program loops to use the previous result as the first number and then repeats the calculation process.
+
 # If no, program asks the user for the fist number again and wipes all memory of previous calculations.
 # Add the logo from art.py
 
-# num1 = input("Enter the first number?: ")
